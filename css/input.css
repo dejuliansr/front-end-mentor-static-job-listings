@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary */
+  --color-Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+
+  /* Neutral */
+  --color-Light-Grayish-Cyan-bg: hsl(180, 52%, 96%); /* background */
+  --color-Light-Grayish-Cyan: hsl(180, 31%, 95%); /* filter tablets */
+  --color-Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+  --color-Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+}
