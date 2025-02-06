@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   let selectedFilters = [];
 
   try {
-    const response = await fetch("/data.json");
+    const response = await fetch("../data.json");
     const jobs = await response.json();
 
     function renderJobs(filteredJobs) {
